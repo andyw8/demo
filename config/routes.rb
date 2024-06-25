@@ -11,6 +11,8 @@ def batch(*actions, **kwargs)
 end
 
 Rails.application.routes.draw do
+  mount ActionCable.server => '/cable'
+
   resources :users, except: :destroy do
     nest :blogs
     create :session

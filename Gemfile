@@ -86,3 +86,5 @@ gem "superview", github: "rubymonolith/superview", branch: "main"
 gem "superform", github: "rubymonolith/superform", branch: "main"
 
 gem "rouge", "~> 4.1"
+
+gem "websocket-client-simple", "~> 0.8.0"

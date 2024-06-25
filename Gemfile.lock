@@ -7,10 +7,10 @@ GIT
 
 GIT
   remote: https://github.com/rubymonolith/superform.git
-  revision: 0bf986c2a40bf3dda5b974266c6c0f9d008b28d5
+  revision: bbc18323120897acec3400e6ab4785ff665809a0
   branch: main
   specs:
-    superform (0.4.2)
+    superform (0.4.9)
       phlex-rails (~> 1.0)
       zeitwerk (~> 2.6)
 
@@ -133,6 +133,7 @@ GEM
     erb (4.0.3)
       cgi (>= 0.3.3)
     erubi (1.12.0)
+    event_emitter (0.2.6)
     globalid (1.2.1)
       activesupport (>= 6.1)
     hanami-router (2.0.2)
@@ -312,6 +313,9 @@ GEM
       selenium-webdriver (~> 4.0, < 4.11)
     webrick (1.8.1)
     websocket (1.2.10)
+    websocket-client-simple (0.8.0)
+      event_emitter
+      websocket
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -350,6 +354,7 @@ DEPENDENCIES
   tzinfo-data
   web-console
   webdrivers
+  websocket-client-simple (~> 0.8.0)
 
 RUBY VERSION
    ruby 3.2.1p31
