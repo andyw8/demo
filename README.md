@@ -8,7 +8,7 @@ Demonstrates the use of a Phlex app that maps closely to the database tables of 
 
 ## Embedded Phlex views in controllers
 
-Phlex classes are used to render HTML views. Now Erb, partials, or templates are used. This demonstrates the feasiblity of component-driven application development with Rails.
+Phlex classes are used to render HTML views. No Erb, partials, or templates are used. This demonstrates the feasiblity of component-driven application development with Rails.
 
 Here's an example of a controller with embedded Phlex classes:
 
